@@ -47,6 +47,8 @@ Process:
 - Performed  TFIDF word vectorization of 5000 synopsis using NLTK from The MovieDb dataset  
 - Tuned hyperparameters using gridsearchcv with multioutputclassifer running SVC model which gave us our best score on our test data at 0.19 which is better than the base case of .09. 
 
+![](/Media/Gridsearch.png) 
+
 Going Forwards: 
 
 The model could be trained on more data. There are rooms for tryin other sklearn multiclass algorithms like multilabel classifer. The challenge with achieving a higher score lies in the fact that the model has to make 11 different predictions for each movie. As a result the probabilities of getting each 11 predictions right for each movie is low and acts against the over all test score. 
