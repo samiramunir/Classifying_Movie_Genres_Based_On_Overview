@@ -61,5 +61,5 @@ The model could be trained on more data. There are rooms for tryin other sklearn
  
 
 *****************************************************************
-Project Partner [Adam Liscia ](https://github.com/AdamLiscia)
+Project Partner [Mubarak Bajwa](https://github.com/Mubarakb)
 *****************************************************************
