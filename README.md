@@ -60,3 +60,6 @@ Going Forwards:
 The model could be trained on more data. There are rooms for tryin other sklearn multiclass algorithms like multilabel classifer. The challenge with achieving a higher score lies in the fact that the model has to make 11 different predictions for each movie. As a result the probabilities of getting each 11 predictions right for each movie is low and acts against the over all test score. 
  
 
+*****************************************************************
+Project Partner [Adam Liscia ](https://github.com/AdamLiscia)
+*****************************************************************
