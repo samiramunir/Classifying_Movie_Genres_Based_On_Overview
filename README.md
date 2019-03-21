@@ -1,14 +1,16 @@
-# Multioutput Classifer for Movie Genre
+# Multi-Label Classifer for Movie Genre
 
 ![](/Media/pic.jpeg)
 
 
 ## Motivation:
-This project aims to build a multi-label classifer that can predict a movie's multiple genres based on it's overview text that was collected from the The Moviedb database. 
+As businesses continue to amass data and documents, new avenues of exploring those data/documents keep arising. Text classification is very useful machine learning tool that allows for analyzing large volumes of documents and group them into different categories. One of the challenges associated with text classification is to attach multiple labels to the same document. For example, take movie generes into consideration. A movie can fall into multiple genres. Take Avatar for instance. 
 
 ![](/Media/Avatar.png)
 
-As you can see according to IMDB, Avatar is not only Fantasy but its classified by Action, Adventure, and Fantasy. Not only is it a multiclassication problem, the classes are not mutually exclusive. This model is trained on movies that fall in one or more of the following 11 genres:  
+The above picture shows that according to IMDB, Avatar is not only Fantasy but its classified by Action, Adventure, and Fantasy. Moreover, the classes are not mutually exclusive. So there is no hard drawn line between each classification. This project aims to build a multi-label classifer that can predict a movie's multiple genre labels based on it's overview text that was collected from the The Moviedb database. 
+
+The model is trained on movies that fall in one or more of the following 11 genres:  
 
 Action,  Adventure, Comedy, Crime, Drama, Fantasy, Horror, Mystery, Science Fiction, Thriller
 
@@ -25,7 +27,7 @@ Word Cloud for All Movies Classified as Action
 Word Cloud for all Movies Classified as Comedies
 ![](/Media/wcComedy.png.png)
  
-T
+
 ![](/Media/pie1.png)
 
 The following heatmap shows how correlated one genre is to another. As you can see comedy and thriller are the least correlated. Which is intuitive.  
